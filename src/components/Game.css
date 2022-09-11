@@ -1,0 +1,61 @@
+.game h1{
+    font-size: 1.9em !important;
+}
+
+.game{
+    font-family: Helvetica;
+    font-size: .83em;
+}
+
+.points span, .clue span{
+    font-weight: bold;   
+}
+
+.clue span{
+    color: purple;
+    background-color: #ECFA00;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.wordContainer{
+    margin: 1.4em;
+    padding: 1.5em;
+    border: 10px solid #ECFA00;
+    display: flex;
+}
+
+.letter, .blankSquare{
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid black;
+    height: 90px;
+    width: 90px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.letterContainer p{
+    margin-bottom: 1.2em;
+}
+
+.letterContainer form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letterContainer input{
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right: 1em;
+    border-radius: 50px;
+}
+
+.category{
+    text-transform: uppercase;
+}

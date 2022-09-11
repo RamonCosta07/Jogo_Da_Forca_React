@@ -1,0 +1,14 @@
+.starts{
+    margin: 100px;
+}
+
+.starts h1{
+    font-size: 2.5em;
+}
+
+.starts p{
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(166, 7, 180);
+}
